@@ -76,3 +76,26 @@ Quanto feito os teste na tela cadastro
 E busca profissional
 E usando a ferramenta Lighthouse
 Então os resultados encontrados foram registrados na planilha
+_____________________________________________________________________________________
+
+Teste de Carga com Apache JMeter
+
+**Configuração do teste:**
+- 30 usuários simultâneos
+- Ramp-up: 30 segundos
+- 10 repetições
+- Endpoint: `https://paciente.lacreisaude.com.br`
+
+**Resultados principais:**
+
+| Métrica | Valor |
+|----------|-------|
+| Total de requisições | 300 |
+| Avarege | 0 |
+| Erros (%) | 100% |
+| Throughput | 10.4 req/s |
+| Avg. Bytes | 1126.0 |
+
+*Print dos dados apresentado na tabela do link ao final*
+
+
