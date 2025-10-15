@@ -65,3 +65,14 @@ Então é redirecionado para a página de redefinir senha
 E um campo para colocar seu e-mail aparecerá
 E clicando no botão 'enviar link' você recebera um e-mail
 E será redirecionado e enviado a nova senha
+______________________________________________________________________________________
+
+Registro de Teste de Desempenho
+Tempo de resposta nas operações críticas (ex.: cadastro e busca de profissional)
+Ferramenta sugerida: Lighthouse
+
+Dado site https://paciente.lacreisaude.com.br na aba anonima
+Quanto feito os teste na tela cadastro
+E busca profissional
+E usando a ferramenta Lighthouse
+Então os resultados encontrados foram registrados na planilha
